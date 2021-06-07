@@ -1,0 +1,31 @@
+Hibernate:
+    select
+        book0_.id as id1_1_,
+        book0_.author_id as author_i3_1_,
+        book0_.name as name2_1_
+    from
+        book book0_
+Hibernate:
+    select
+        author0_.id as id1_0_0_,
+        author0_.name as name2_0_0_
+    from
+        author author0_
+    where
+        author0_.id=?
+Hibernate:
+    select
+        author0_.id as id1_0_0_,
+        author0_.name as name2_0_0_
+    from
+        author author0_
+    where
+        author0_.id=?
+Hibernate:
+    select
+        author0_.id as id1_0_0_,
+        author0_.name as name2_0_0_
+    from
+        author author0_
+    where
+        author0_.id=?
